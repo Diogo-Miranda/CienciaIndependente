@@ -1,0 +1,423 @@
+
+/* Gerais */
+
+body { overflow-x: hidden; } /* Desativa barra de rolagem horizontal */ 
+
+body{
+    background-color: #F2F2F2 !important;
+}
+
+h1 { font-family: Convergence; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Convergence; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Convergence; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Convergence; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Convergence; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+.feature_notices {
+    font-size: 1.5em;
+}
+
+.row{
+    margin: 0px !important;
+}
+
+.feature_notices a{
+    text-decoration: none !important;
+    color: #402A01 !important;
+}
+
+.h2Artigos{
+    padding-bottom: 20px;
+    font-size: 3em;
+}
+
+/* Versão até 768px - Inicio */
+
+@media screen and (max-width: 768px){
+
+    #destaques h1{
+        text-align: center;
+    }
+
+    .feature_notices h5 {
+        text-align: center;
+    }
+
+    .feature_notices div{
+        padding: 20px;
+    }  
+
+    .divDestaques div{
+        padding-bottom: -2000px; 
+    } 
+
+    .h2Artigos{
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .h2Filmes{
+        padding-top: 25px;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .h2Videos{
+        padding: 25px;
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    .videoSlider{
+        padding-bottom: 30px;
+    }
+
+    .cardSmall{
+        width: 100%;
+    }
+
+    .carousel-caption h3{
+        margin-top: -160px;
+    }
+    
+}
+
+/* Versão até 768px - Fim */
+
+
+/* Versão 769px - 1023px - Inicio */
+
+@media screen and (min-width:769px) and (max-width:1023px){
+
+    .divCardsDestaques{
+        padding-top: 50px;
+    }
+
+    .divDestaques{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .divDestaques h5 {
+        text-align: center;
+    }
+
+    .divDestaques div{
+        padding: 10px;
+    }
+
+    #destaques{
+        padding: 20px;
+    }
+
+    .myCarouselVideo{
+        padding-top: 40px;
+    }
+
+    .h2Videos{
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .h2Filmes{
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .h1Destaques{
+        text-align: center;
+    }
+
+    .h2Artigos{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+
+/* Versão 769px - 1023px - Fim */
+
+/* Versão de 1024px - 1365px Inicio */
+
+@media screen and (min-width:1024px) and (max-width:1365px)
+{
+
+    .divCardsDestaques{
+        padding-top: 50px;
+    }
+
+    .divDestaques{
+        padding-top: 10px;
+    }
+
+    .h2Filmes{
+        padding: 20px;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .h2Videos{
+        padding: 20px;
+        padding-bottom: 33px;
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    .rowFilmes{
+        padding-top: 60px;
+    }
+
+    .myFooter{
+        padding-top: 50px;
+    }
+    
+    .h1Destaques{
+        padding: 30px;
+    }
+
+    .rowFilmes{
+        margin-top: -60px !important;
+    }
+    
+}
+/* Versão de 1024px - 1365px Fim */
+
+/* Versão mais de 1366px Inicio */
+
+@media screen and (min-width:1366px)
+{
+    .divCardsDestaques{
+        padding-top: 50px;
+    }
+
+    .divDestaques{
+        padding-top: 10px;
+    }
+
+    .h2Filmes{
+        padding: 20px;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .h2Videos{
+        padding: 20px;
+        padding-bottom: 33px;;
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    .rowFilmes{
+        padding-top: 60px;
+    }
+
+    .myFooter{
+        padding-top: 50px;
+    }
+    
+    .h1Destaques{
+        padding: 30px;
+    }
+
+    .rowFilmes{
+        margin-top: -60px !important;
+    }
+}
+
+/* Versão mais de 1366px Fim */
+
+/* CSS Header - Inicio */
+
+.my-nav{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+
+header{
+    max-width: 100%;
+}
+
+.colunaDestaques h5{
+    color: #F23827;
+    font-size: 1.2em;
+}
+
+/* CSS Header - Fim */
+
+
+/* CSS - Section Caroussel - Inicio*/
+
+
+.carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slideUm{
+    background-image: url('img/Slider/SliderNotice1.jpg');
+}
+
+#slideDois{
+    background-image: url('img/Slider/SliderNotice2.jpg');
+}
+
+#slideTres{
+    background-image: url("img/Slider/SliderNotice3.png");
+}
+/* CSS - Section Caroussel - Fim*/
+
+
+/* CSS - Section Cards - Inicio*/
+
+/* Font Imports ************************************************************* */
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+/* Defining Font Sizing ***************************************************** */
+.large {
+    font-size: 2.5rem;
+}
+.med {
+    font-size: 2rem;
+}
+.sml {
+    font-size: 1.5rem;
+}
+
+/* Defining Font Colors ***************************************************** */
+.primes {
+    color: #172A3A;
+}
+.seconds {
+    color: #4C5C68;
+}
+.thirds {
+    color: #A0B9BF;
+}
+
+/* Card Styling ************************************************************* */
+.card {
+    background-color: transparent;
+    border: 0px;
+}
+
+.card .thumbnail {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.card .thumbnail .caption {
+    background: linear-gradient(45deg, #4C5C68, #A0B9BF);
+    margin: -20px 20px 20px 20px;
+    padding: 19px 29px 19px 29px;
+    position: relative;
+    border: 0px;
+}
+
+.card .thumbnail .caption hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    margin: 20px 40px;
+}
+.card .thumbnail .caption p {
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+
+.card .thumbnail .caption .btn-card {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-weight: normal;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.25rem 1.25rem;
+    color: #FFFFFF;
+    transition: 0.5s ease;
+    border-radius: 0px;
+}
+
+.card .thumbnail .caption .btn-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.card .thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+/* ************************************************************************** */
+
+div .bg-dark {
+    background-color: #402A01 !important;
+}
+
+div .caption {
+    background: #402A01 !important;
+}
+
+div .f-prime {
+    color: #F2C849;
+}
+
+.feature_notices .cardSmall{
+    background: #F2C849;
+    margin-top: 10px;
+}
+
+.cardSmall img {
+    padding-top: 10px;
+}
+
+.h1Destaques{
+    text-align: center;
+}
+
+.divDestaques h5{
+    text-align: center;
+} 
+
+.colunaDestaques div{
+    padding: 10px;
+}
+/* CSS - Section Cards - Fim*/
+
+/* CSS - Foto Filmes - Inicio */
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+  
+#image-gallery .modal-footer{
+    display: block;
+}
+  
+.thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* CSS - Foto Filmes - Fim */
+
+/* CSS - Slider Videos - Inicio */
+
+.videoSlider a{
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS - Slider Videos - Fim */
+
+/* CSS - Footer - Inicio */
+
+.myFooter{
+    background-color: #F9DB49;
+}
+
+/* CSS - Footer - Fim */

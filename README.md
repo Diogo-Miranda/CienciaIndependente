@@ -1,1 +1,1 @@
-http://cienciaindependente.github.io
+https://diogo-miranda.github.io/CienciaIndependente/
